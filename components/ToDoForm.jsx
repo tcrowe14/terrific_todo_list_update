@@ -44,19 +44,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginHorizontal: 20,
     marginTop: 20,
-  },
+    width: '100%', // Ensures the form takes up the full width
+  },  
   input: {
     flex: 1,
     borderWidth: 1,
     borderColor: '#ccc',
     paddingHorizontal: 10,
-    paddingVertical: 5,
-    marginRight: 10,
-    borderRadius: 5, // Optional: Makes input look better
+    paddingVertical: 10,
+    borderRadius: 5,
     fontSize: 16,
-  },
+    minWidth: '70%', // Ensures the input takes a decent portion of the screen
+  },  
   button: {
-    backgroundColor: '#99c5e8',
+    backgroundColor: '#699df0',
     paddingHorizontal: 15,
     paddingVertical: 10,
     borderRadius: 5,
